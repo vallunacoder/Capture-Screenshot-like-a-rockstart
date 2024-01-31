@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock start Screen shot page</title>
+
+    <!-- first top link your html to your css and your js -->
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="login_container">
+      <form action="" class="login_form">
+        <h2>Login</h2>
+
+        <div class="input_group">
+          <label for="username"> Username</label>
+          <input
+            type="text"
+            id="username"
+            placeholder="here goes your username"
+            required
+            autocomplete="off"
+          />
+        </div>
+
+        <div class="input_group">
+          <label for="password"> Password</label>
+          <input
+            type="password"
+            id="password"
+            placeholder="Enter password"
+            required
+          />
+        </div>
+        <button type="submit">Login</button>
+      </form>
+    </div>
+
+    <button id="screenshotBtn">Take a Screenshot</button>
+
+    <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

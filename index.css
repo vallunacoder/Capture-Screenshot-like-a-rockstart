@@ -1,0 +1,130 @@
+/* ok let's start the game?  today we are  going to center our content with display flex */
+
+body, html{
+  height: 100%;
+  margin: 0;
+  font-family: 'Arial';
+  display: flex
+  ;
+  align-items: center;
+  justify-content: center;
+  background-color: #f4f4f4;
+}
+
+
+.login_container{
+   background-color: #e7cc6d;
+   padding: 40px;
+   border-radius: 10px;
+   width: 320;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+
+.login_form h2{
+  margin-bottom: 30px;
+  color: hsl(247, 92%, 49%);
+  
+}
+
+.input_group{
+   margin-bottom:15px;
+   text-align: left;
+   margin-left: 20px;
+   color: hsl(247, 92%, 49%);
+}
+
+.input_group label{
+  display: block;
+  margin-bottom: 15px;
+
+}
+
+.login_form input[type="text"],
+.login_form input[type="password"]{
+  width: 100%;
+  padding: 10px;
+  border: 4px  solid hsl(105, 62%, 58%);
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.login_form input[type="text"]:focus,
+.login_form input[type="password"]:focus{
+    outline:none;
+    border-color: hsl(247, 92%, 49%);
+}
+
+
+.login_form button{
+  width: 100%;
+  padding: 10px;
+  color: hsl(247, 92%, 49%);
+  background-color: hsl(105, 62%, 58%);
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 1.5rem
+  ;
+  font-weight: bold;
+  margin-left: 10px;
+   /* let's add a cool effect */
+   transition: all 0.3s ease;
+
+}
+
+.login_form button:hover,
+#screenshotBtn:hover{
+  background-color: hsl(105, 80%, 67%);
+
+}
+
+
+#screenshotBtn{
+  position: fixed;
+  bottom: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px 20px;
+  background-color: #efd163;
+  color: hsl(247, 92%, 49%);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease-in;
+ font-weight: bold;
+ box-shadow: rgba(5, 6, 6, 6.88);
+}
+
+
+.hidden{
+  display: none !important;
+}
+
+
+/* notes */
+/*
+test question ? do you know whit css value it's setting the margin between  the form and the screen shot btn  ⬇*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*yes position fixed:  bottom: 40px;  */
